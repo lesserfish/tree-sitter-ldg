@@ -1,5 +1,7 @@
 ;; Keywords
 
+(ldg_code) @keyword
+
 "return" @keyword.return
 
 [
@@ -215,11 +217,8 @@
 
 (comment) @comment
 
-(dialogue_code) @keyword
-
 (number) @number
 
 (string) @string
 
 (escape_sequence) @string.escape
-
