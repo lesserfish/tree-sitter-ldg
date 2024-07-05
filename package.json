@@ -33,19 +33,16 @@
     }
   },
   "devDependencies": {
-    "tree-sitter-cli": "^0.19.2",
     "prebuildify": "^6.0.0"
   },
   "scripts": {
-    "build": "tree-sitter generate && node-gyp build",
-    "test": "tree-sitter test",
     "install": "node-gyp-build",
     "prebuildify": "prebuildify --napi --strip"
   },
   "tree-sitter": [
     {
-      "scope": "source.jsonc",
-      "injection-regex": "^jsonc$"
+      "scope": "source.ldg",
+      "injection-regex": "^ldg$"
     }
   ]
 }
