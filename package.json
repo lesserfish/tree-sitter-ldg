@@ -42,7 +42,13 @@
   "tree-sitter": [
     {
       "scope": "source.ldg",
-      "injection-regex": "^ldg$"
+      "injection-regex": "^ldg$",
+      "highlights": "queries/highlights.scm",
+      "injections": "queries/injections.scm",
+      "tags": "queries/tags.scm",
+      "file-types": [
+        "ldg"
+      ]
     }
   ]
 }
